@@ -7,8 +7,18 @@ DEPENDENCIES/repy_v2/*
 DEPENDENCIES/portability/*
 DEPENDENCIES/seattlelib_v2/*
 DEPENDENCIES/seash/*
+# Adding `modules` and subdirs manually as we have no `tree` functionality yet.
+DEPENDENCIES/seash/modules/* modules
+DEPENDENCIES/seash/modules/modules/* modules/modules
+DEPENDENCIES/seash/modules/factoids/* modules/factoids
+DEPENDENCIES/seash/modules/geoip/* modules/geoip
+DEPENDENCIES/seash/modules/uploaddir/* modules/uploaddir
+DEPENDENCIES/seash/modules/variables/* modules/variables
 DEPENDENCIES/affix/*
 DEPENDENCIES/affix/components/*
+
+DEPENDENCIES/repy-doodles/*
+DEPENDENCIES/sensorlib/*
 
 # Tests
 test DEPENDENCIES/affix/tests/*
