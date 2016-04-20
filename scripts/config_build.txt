@@ -21,6 +21,12 @@ DEPENDENCIES/affix/components/*
 DEPENDENCIES/repy-doodles/*
 DEPENDENCIES/sensorlib/*
 
+# Also put the sensorlib and friends in a convenient `uploaddir`able directory
+DEPENDENCIES/sensorlib/* sensorlib
+DEPENDENCIES/seattlelib_v2/dylink.r2py sensorlib
+DEPENDENCIES/seattlelib_v2/encasementlib.r2py sensorlib
+DEPENDENCIES/seattlelib_v2/wrapper.r2py sensorlib
+
 # Tests
 test DEPENDENCIES/affix/tests/*
 test DEPENDENCIES/affix/components/tests/*
