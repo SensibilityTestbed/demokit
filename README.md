@@ -7,4 +7,19 @@ The Seattle Demokit
 * Run RepyV2 code on your local machine, using a supplied restrictions file, and thusly
 * Develop and debug Repy programs locally. 
 
-See [the Seattle wiki](https://seattle.poly.edu/wiki/BuildDemokit) for build instructions.
+To build the demokit,
+```
+git clone https://github.com/SeattleTestbed/demokit.git
+cd demokit
+# Create build target folder first
+mkdir seattle_demokit
+cd scripts
+python initialize.py
+python build.py ../seattle_demokit
+
+# Now package the build for download
+cd ..
+zip -r seattle_demokit ./seattle_demokit
+```
+
+See [the Seattle wiki](https://seattle.poly.edu/wiki/BuildDemokit) for build details.
