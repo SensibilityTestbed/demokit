@@ -7,4 +7,4 @@ https://github.com/SeattleTestbed/common ../DEPENDENCIES/common
 https://github.com/SensibilityTestbed/seash ../DEPENDENCIES/seash
 https://github.com/SeattleTestbed/affix ../DEPENDENCIES/affix
 https://github.com/aaaaalbert/repy-doodles ../DEPENDENCIES/repy-doodles
-https://github.com/aaaaalbert/repy-doodles ../DEPENDENCIES/sensor-doodles
+https://github.com/aaaaalbert/sensor-doodles ../DEPENDENCIES/sensor-doodles
