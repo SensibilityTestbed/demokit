@@ -1,10 +1,10 @@
 # Dependencies for the Seattle Demokit.
 # (Essentially includes the RepyV2 runtime, libraries, and seash)
-https://github.com/SensibilityTestbed/repy_v2 ../DEPENDENCIES/repy_v2
+https://github.com/SensibilityTestbed/repy_v2 -b add-sensorlock ../DEPENDENCIES/repy_v2
 https://github.com/SensibilityTestbed/seattlelib_v2 ../DEPENDENCIES/seattlelib_v2
 https://github.com/SeattleTestbed/portability ../DEPENDENCIES/portability
 https://github.com/SeattleTestbed/common ../DEPENDENCIES/common
 https://github.com/SensibilityTestbed/seash ../DEPENDENCIES/seash
 https://github.com/SeattleTestbed/affix ../DEPENDENCIES/affix
-https://github.com/SensibilityTestbed/sensorlib ../DEPENDENCIES/sensorlib
 https://github.com/aaaaalbert/repy-doodles ../DEPENDENCIES/repy-doodles
+https://github.com/aaaaalbert/repy-doodles ../DEPENDENCIES/sensor-doodles
