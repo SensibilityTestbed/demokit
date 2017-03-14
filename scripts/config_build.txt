@@ -1,7 +1,5 @@
 # Build file for the Seattle Demokit.
 # (Essentially includes the RepyV2 runtime, libraries, and seash)
-#
-# XXX Should include demo apps too!
 ./*
 DEPENDENCIES/repy_v2/*
 DEPENDENCIES/portability/*
@@ -14,18 +12,11 @@ DEPENDENCIES/seash/modules/factoids/* modules/factoids
 DEPENDENCIES/seash/modules/geoip/* modules/geoip
 DEPENDENCIES/seash/modules/uploaddir/* modules/uploaddir
 DEPENDENCIES/seash/modules/variables/* modules/variables
-DEPENDENCIES/seash/modules/execute/* modules/execute
 DEPENDENCIES/affix/*
 DEPENDENCIES/affix/components/*
 
 DEPENDENCIES/repy-doodles/*
-DEPENDENCIES/sensorlib/*
-
-# Also put the sensorlib and friends in a convenient `uploaddir`able directory
-DEPENDENCIES/sensorlib/* sensorlib
-DEPENDENCIES/seattlelib_v2/dylink.r2py sensorlib
-DEPENDENCIES/seattlelib_v2/encasementlib.r2py sensorlib
-DEPENDENCIES/seattlelib_v2/wrapper.r2py sensorlib
+DEPENDENCIES/sensor-doodles/*
 
 # Tests
 test DEPENDENCIES/affix/tests/*
